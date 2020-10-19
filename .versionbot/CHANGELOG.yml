@@ -1,31 +1,21 @@
 - commits:
-    - subject: 'dac: Add Boss DAC v1.2'
-      hash: 66378b989bff918081e96dc9c5ef6249d835d751
-      body: ''
+    - subject: 'multi-room: add snapweb to snapcast server'
+      hash: ca1b4fcddec0074e0a2fd27b36e5779e651fde41
+      body: |
+        This adds the simple web application snapweb to the snapcast server.
+        The application allows to set properties of snapcast (multiroom) client
+        such as volume
       footer:
-        Connects-to: '#305'
-        connects-to: '#305'
-        Change-type: patch
-        change-type: patch
-        Signed-off-by: Tomás Migone <tomasmigone@gmail.com>
-        signed-off-by: Tomás Migone <tomasmigone@gmail.com>
-      author: Tomás Migone
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: emmanuel.jannetti@gmail.com
+        signed-off-by: emmanuel.jannetti@gmail.com
+        Connects-to: '#319'
+        connects-to: '#319'
+      author: Emmanuel Jannetti
       nested: []
-  version: 3.1.8
-  date: 2020-10-19T15:43:59.833Z
-- commits:
-    - subject: 'docs: add query params to deploy link'
-      hash: a4f796504c95e1a39409e71b4e05960db46246cc
-      body: ''
-      footer:
-        Change-type: patch
-        change-type: patch
-        Signed-off-by: Aaron Shaw <shawaj@gmail.com>
-        signed-off-by: Aaron Shaw <shawaj@gmail.com>
-      author: Aaron Shaw
-      nested: []
-  version: 3.1.7
-  date: 2020-10-01T12:51:10.309Z
+  version: 3.2.0
+  date: 2020-10-19T16:01:45.079Z
 - commits:
     - subject: 'dac: add Adafruit mac98357'
       hash: fa62fccabafd19a7d4f8d9dd500b9d7850192444
