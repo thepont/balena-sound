@@ -14,7 +14,7 @@ SNAPSERVER=$(curl --silent "$SOUND_SUPERVISOR/multiroom/master" || true)
 # --- ENV VARS ---
 # SOUND_MULTIROOM_LATENCY: latency in milliseconds to compensate for speaker hardware sync issues
 LATENCY=${SOUND_MULTIROOM_LATENCY:+"--latency $SOUND_MULTIROOM_LATENCY"}
-
+DEVICE_NAME=${SOUND_DEVICE_NAME:+"--hostID $SOUND_DEVICE_NAME"}
 echo "Starting multi-room client..."
 echo "Mode: $MODE"
 echo "Target snapcast server: $SNAPSERVER"
