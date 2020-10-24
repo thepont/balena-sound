@@ -1,3 +1,0 @@
-[submodule "core/multiroom/server/snapweb"]
-	path = core/multiroom/server/snapweb
-	url = https://github.com/badaix/snapweb.git
